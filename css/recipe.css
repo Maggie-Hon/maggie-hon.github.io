@@ -1,9 +1,10 @@
 .ui.vertical.segment.header {
-   background: url(img/ella-olsson-C1Q3qOTlegg-unsplash-1920x1280.jpg) center center no-repeat;
+   background: url(../img/ella-olsson-C1Q3qOTlegg-unsplash-1920x1280.jpg) center center no-repeat;
    height: 400px;
    border-bottom: none;
+   margin-top: 80px;
  }
- 
+
  .ui.menu .item>.floating.label{
    padding: 0.3em;
    border-radius: 50%;
@@ -123,7 +124,11 @@
    }
  }
  @media only screen and (max-width: 440px){
+   .ui.vertical.segment.header{
+     margin-top: 0;
+     height: 340px;
+   }
    .ui.text.container{
-     margin-top: 90px;
+     margin-top: 60px;
    }
  }
