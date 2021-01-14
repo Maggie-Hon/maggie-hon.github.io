@@ -88,6 +88,9 @@
    }
  }
  @media only screen and (max-width: 768px){
+   .ui.vertical.segment.header{
+     margin-top: 0;
+   }
    .ui.menu:not(.vertical) .item>.input {
      top: 0;
    }
