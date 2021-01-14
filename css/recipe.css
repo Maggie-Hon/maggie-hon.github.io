@@ -1,0 +1,129 @@
+.ui.vertical.segment.header {
+   background: url(img/ella-olsson-C1Q3qOTlegg-unsplash-1920x1280.jpg) center center no-repeat;
+   height: 400px;
+   border-bottom: none;
+ }
+ 
+ .ui.menu .item>.floating.label{
+   padding: 0.3em;
+   border-radius: 50%;
+   top: 1px;
+   left: 89%;
+ }
+ .mobile{
+   display:none;
+ }
+ .computer,.tablet{
+   display:initial;
+ }
+ .ui.menu .item>i.icon{
+   color:#00b5ad;
+ }
+ .ui.menu.fixed.announce{
+   text-align: center;
+   background-color: #00a3a3;
+   color: white;
+   padding: 3px;
+   top: 0px;
+   width: 100%;
+   justify-content: center;
+   letter-spacing: 0.7px;
+   min-height: auto;
+ }
+ .ui.container.recipes{
+   width: 1203px;
+   margin-top: 50px
+ }
+ .ui.text.container {
+   margin-top: 120px;
+ }
+ .ui.vertical.segment.header .ui.inverted.header{
+   font-size: 3em;
+   color: #505050;
+ }
+ .ui.vertical.menu{
+   width: 100%;
+   margin-top:0;
+ }
+ .ui.navbar.menu:first-child {
+   margin-top: 27px;
+   margin-bottom: 0;
+ }
+ .ui.menu .item>i.icon:first-child{
+   margin: 0;
+ }
+ .ui.inverted.desc{
+   font-size: 1.2em;
+   color: #212121;
+   font-weight: 400;
+ }
+ .ui.card>.extra, .ui.cards>.card>.extra .icon.wrapper{
+   width: 50%;
+   margin: 0 auto;
+ }
+ .ui.card .content img, .ui.cards>.card .content img{
+    width:100%;
+ }
+ .ui.card [class*="right floated"], .ui.cards>.card [class*="right floated"], .ui.card [class*="left floated"], .ui.cards>.card [class*="left floated"]{
+   text-align: center;
+ }
+ .ui.vertical.footer.segment{
+   background-color: #406c6d;
+   margin-top: 40px;
+   padding: 65px 0;
+ }
+ #search-mobile, #menu-icon-mobile{
+   display:none;
+ }
+ #search-desktop{
+   display: initial;
+ }
+ .ui.menu:not(.vertical) .item>.input {
+   top:10px;
+ }
+ @media only screen and (max-width: 992px){
+   .ui.menu:not(.vertical) .item span{
+     display:none;
+   }
+ }
+ @media only screen and (max-width: 768px){
+   .ui.menu:not(.vertical) .item>.input {
+     top: 0;
+   }
+   .ui.menu .item>.floating.label {
+     top: 2px;
+   }
+   #search-mobile{
+     display: initial;
+   }
+   #search-desktop{
+     display: none;
+   }
+  .mobile{
+     display:initial;
+   }
+   .computer,.tablet{
+     display:none;
+   }
+   .ui.menu:not(.vertical) .item span{
+     display:initial;
+   }
+   #menu-icon-mobile{
+     display: inherit;
+     position: absolute;
+     right: 0;
+     padding: 10px;
+     font-size: 16px;
+     color: #5d5d5d;
+   }
+ }
+ @media only screen and (max-width: 480px){
+    .ui.link.cards .card{
+     width:100%;
+   }
+ }
+ @media only screen and (max-width: 440px){
+   .ui.text.container{
+     margin-top: 90px;
+   }
+ }
